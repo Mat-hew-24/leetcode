@@ -1,0 +1,5 @@
+# Write your MySQL query statement below
+SELECT emp.name AS Employee FROM Employee emp, Employee mgr
+WHERE emp.managerId=mgr.id AND emp.salary>mgr.salary;
+
+#SELF JOIN TYPE STUFF
